@@ -18,14 +18,21 @@ We have implemented the 2 given information exchange protocols/algorithms:
 <br/>
 We have implemented these protocols for various topologies such as:
 1.	Line: Each node has 2 neighbors.
+
 2.	Full: Each actor has every other actor as its neighbor.
+
 3.	Random2D: An actor has another actor as its neighbor when the distance between the two is 0.1
+
 4.	Honeycomb: Actors are arranged in hexagonal shape where an actor can have a maximum degree 3
+
 5.	Honeycomb with random neighbor: An additional random neighbor is included in the neighbor list of a node 
+
 <br/>
 The Gossip Algorithm works on the basic idea that initially a node receives a 	rumor (in our case, the message “Hi”).  This node then propagates the gossip message to one of its neighbors. The initial node and the its selected neighbor further propagate this gossip. This continues till the convergence condition is met.  
+
 <br/>
 The Push Sum algorithm is based on the following algorithm (given in the research paper “Gossip-Based Computation of Aggregate Information” by David Kempe, Alin Dobra, and Johannes Gehrke)
+
 
 ## Convergence Criteria based on topologies: 
 Line: 0.6
@@ -37,7 +44,7 @@ Random Honeycomb: 0.8
 ## TIME CALCULATION: 
 We have measured the time of the algorithm using the difference in the value given by the System.monotonic_time () function at the start-time and end-time. 
 
-# GRAPHS:
+## GRAPHS:
  
 1. GOSSIP PROTOCOL <br/>
 
