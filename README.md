@@ -11,6 +11,16 @@ The goal of the project was to implement the Gossip Protocol and Push-Sum Algori
 1.	Karan Manghani (UFID: 7986-9199) Email: karanmanghani@ufl.edu
 2.	Yaswanth Bellam (UFID: 2461-6390) Email: yaswanthbellam@ufl.edu
 
+
+## Steps to run the code: 
+1.	Clone/Download the file
+2.	Using CMD/ terminal, go the directory where you have downloaded the zip file
+3.	Type  ‘cd Gossip-and-Push-Sum-Algorithm-master' (to enter the project directory)
+4.	Run the command “mix run proj2.exs 1000 full gossip”
+
+## Input Format: 
+mix run proj2.exs numnodes topology algorithm
+
 ## Implementation: 
 We have implemented the 2 given information exchange protocols/algorithms:
 1.	Gossip Algorithm
