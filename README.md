@@ -11,10 +11,11 @@ The goal of the project was to implement the Gossip Protocol and Push-Sum Algori
 1.	Karan Manghani (UFID: 7986-9199) Email: karanmanghani@ufl.edu
 2.	Yaswanth Bellam (UFID: 2461-6390) Email: yaswanthbellam@ufl.edu
 
-##Implementation: 
+## Implementation: 
 We have implemented the 2 given information exchange protocols/algorithms:
 1.	Gossip Algorithm
 2.	Push-Sum Algorithm
+<br/>
 We have implemented these protocols for various topologies such as:
 1.	Line: Each node has 2 neighbors.
 2.	Full: Each actor has every other actor as its neighbor.
@@ -36,27 +37,40 @@ Random Honeycomb: 0.8
 ## TIME CALCULATION: 
 We have measured the time of the algorithm using the difference in the value given by the System.monotonic_time () function at the start-time and end-time. 
 
-#GRAPHS:
+# GRAPHS:
  
-1. GOSSIP PROTOCOL
+1. GOSSIP PROTOCOL <br/>
+
 ![gossip-graph](/Graphs/gossip-graph.jpeg)
 
-2. PUSH-SUM AlGORITHM
+2. PUSH-SUM AlGORITHM <br/>
+
 ![pushsum-graph](/Graphs/pushsum-graph.jpeg)
 
 
 ## Maximum number of nodes tested for the following algorithms and topologies:
 
 1.	GOSSIP
+
 a.	Line:  7000 
+
 b.	Full: 9000
+
 c.	Random2D: 7000
+
 d.	Honeycomb: 10000
+
 e.	Random Honeycomb: 10000
 
+
 2.	PUSH-SUM
+
 a.	Line:  500
+
 b.	Full: 5000
+
 c.	Random2D: 7000
+
 d.	Honeycomb: 10000
+
 e.	Random Honeycomb:  10000
